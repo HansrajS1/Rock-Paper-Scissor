@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="top">ROCK PAPER SCISSOR</h1>
+        <h1 class="heading">Let's Play!!<br>
+            Choose an option</h1>
+        </header>
+        
+    <main class="container">
+        <div class="choices" id="ROCK">✊</div>
+        <div class="choices" id="PAPER">🖐️</div>
+        <div class="choices" id="SCISSOR">✌</div>
+    </main>
+    <main class="display hide">
+        <div class="txt">YOU</div>
+        <div class="user"></div>
+        <div class="comp"></div>
+        <div class="txt">COMPUTER</div>
+    </main>
+    <footer class="Showresult">
+        <div class="result"></div><br>
+        <span>PLAYER SCORE : </span><span class="user-score"> 0</span><br>
+        <span>COMPUTER SCORE : </span><span class="comp-score">0</span><br>
+        <Button class="RESET">RESET SCORE</Button><br>
+    </footer>
+    <div class="foot">
+        <div class="rules">
+            RULES
+            <img class="srcimg" src="assets/img.svg" alt="Rules">
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+
+</html>
