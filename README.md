@@ -1,7 +1,8 @@
 ## Rock-Paper-Scissor
 
 
-![](assets\preview.png)
+![](assets/preview.png)
+
 * [Rock Paper Scissor](https://hansrajs1.github.io/Rock-Paper-Scissor/) project using HTML , CSS , JavaScript.
 * This is a program that is made in https://hansrajs1.github.io/Rock-Paper-Scissor/ .
 * Its a very simple one player Rock Paper Scissor game.
